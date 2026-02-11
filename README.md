@@ -40,6 +40,7 @@ Build artifact generation is handled via pom.xml
 
 # 📁 Repository Structure
 
+```bash
 java-cicd-demo/
 │
 ├── pom.xml
@@ -57,6 +58,7 @@ java-cicd-demo/
             └── com/
                 └── example/
                     └── App.java
+```
 
 # Business Value
 
