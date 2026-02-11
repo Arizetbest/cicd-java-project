@@ -74,7 +74,7 @@ Clear visibility into what is deployed
 
 A scalable foundation for additional services
 # How to Run Locally
-mvn clean package
+mvn clean package: This will build the locally and you should see successfull build.
 java -jar target/simple-java-http-1.0.0.jar
 ## Then visit:
 http://localhost:8080
@@ -84,4 +84,3 @@ This project reflects real-world DevOps practices used in production environment
 It demonstrates automation, infrastructure understanding, 
 CI/CD integration, and secure cloud deployment principles.
 
-# How to Run Locally
