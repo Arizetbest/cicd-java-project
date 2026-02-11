@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+
+files:
+  - source: simple-java-http.jar
+    destination: /opt/simple-java-http
+
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: root

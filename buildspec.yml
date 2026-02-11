@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+  build:
+    commands:
+      - mvn -q -e -DskipTests clean package
+  post_build:
+    commands:
+      - cp target/simple-java-http-1.0.0.jar simple-java-http.jar
+
+artifacts:
+  files:
+    - appspec.yml
+    - simple-java-http.jar
+    - scripts/**/*
