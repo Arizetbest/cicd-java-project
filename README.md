@@ -37,7 +37,8 @@ Provides a health check endpoint (/health)
 Is packaged using Maven
 
 Build artifact generation is handled via pom.xml
-📁 Repository Structure
+
+# 📁 Repository Structure
 
 # Business Value
 
