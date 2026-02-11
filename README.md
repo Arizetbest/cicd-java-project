@@ -39,6 +39,7 @@ Is packaged using Maven
 Build artifact generation is handled via pom.xml
 
 # 📁 Repository Structure
+
 java-cicd-demo/
 │
 ├── pom.xml
