@@ -39,6 +39,23 @@ Is packaged using Maven
 Build artifact generation is handled via pom.xml
 
 # 📁 Repository Structure
+java-cicd-demo/
+│
+├── pom.xml
+├── buildspec.yml
+├── appspec.yml
+│
+├── scripts/
+│   ├── install_dependencies.sh
+│   ├── stop.sh
+│   └── start.sh
+│
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── example/
+                    └── App.java
 
 # Business Value
 
